@@ -18,6 +18,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'rails-i18n'
 # Manage Procfile-based applications
 gem 'foreman', '~> 0.82.0'
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.3'
+# Translations for the devise gem
+gem 'devise-i18n', '~> 1.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
