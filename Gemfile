@@ -55,5 +55,8 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  #Automatically generate an entity-relationship diagram (ERD) for your Rails models.
+  gem 'rails-erd', '~> 1.5', '>= 1.5.2'
 end
 
